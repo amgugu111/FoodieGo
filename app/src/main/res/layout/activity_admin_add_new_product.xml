@@ -14,7 +14,7 @@
         android:layout_marginTop="10dp"
         android:cropToPadding="false"
         android:scaleType="centerInside"
-        android:src="@drawable/apple_view" />
+        android:src="@drawable/upload_icon" />
 
     <EditText
         android:id="@+id/product_name"
@@ -52,7 +52,7 @@
         android:inputType="textImeMultiLine"
         android:layout_marginTop="6dp"
         android:padding="20dp"
-        android:hint="Product Price...."
+        android:hint="Product Price per kg"
         android:layout_marginLeft="45dp"
         android:layout_marginRight="45dp"
         android:background="@drawable/input_design"

@@ -67,7 +67,7 @@ public class HomeActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -126,6 +126,7 @@ public class HomeActivity extends AppCompatActivity
                         holder.txtProductName.setText(model.getPname());
                         holder.txtProductDescription.setText(model.getDescription());
                         holder.txtProductPrice.setText("Price = Rs." + model.getPrice());
+                        holder.txtProductFreshness.setText(model.getFreshness());
                         Picasso.get().load(model.getImage()).into(holder.imageView);
                     }
 

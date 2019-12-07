@@ -32,7 +32,7 @@ import java.util.HashMap;
 
 public class AdminAddNewProductActivity extends AppCompatActivity {
 
-    private String CategoryName, Description, Price, Pname, saveCurrentDate, saveCurrentTime;;
+    private String CategoryName, Description, Price, Pname, saveCurrentDate, saveCurrentTime, freshness;
 
     private Button AddNewProductButton;
     private ImageView InputProductImage;
@@ -106,6 +106,7 @@ public class AdminAddNewProductActivity extends AppCompatActivity {
         Description = InputProductDescription.getText().toString();
         Price = InputProductPrice.getText().toString();
         Pname = InputProductName.getText().toString();
+
 
 
         if (ImageUri == null)

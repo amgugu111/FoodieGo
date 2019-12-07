@@ -2,14 +2,14 @@ package com.example.foodiego.Models;
 
 public class Products
 {
-    private String pname, description, price, image, category, pid, date, time;
+    private String pname, description, price, image, category, pid, date, time, freshness;
 
     public Products()
     {
 
     }
 
-    public Products(String pname, String description, String price, String image, String category, String pid, String date, String time) {
+    public Products(String pname, String description, String price, String image, String category, String pid, String date, String time, String freshness) {
         this.pname = pname;
         this.description = description;
         this.price = price;
@@ -18,8 +18,16 @@ public class Products
         this.pid = pid;
         this.date = date;
         this.time = time;
+        this.freshness = freshness;
     }
 
+    public String getFreshness() {
+        return freshness;
+    }
+
+    public void setFreshness(String freshness) {
+        this.freshness = freshness;
+    }
 
     public String getPname() {
         return pname;
