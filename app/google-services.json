@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "451140062530",
+    "firebase_url": "https://foodiego-7e6cb.firebaseio.com",
+    "project_id": "foodiego-7e6cb",
+    "storage_bucket": "foodiego-7e6cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451140062530:android:139dd1cc140317202bccdb",
+        "android_client_info": {
+          "package_name": "com.example.foodiego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451140062530-6ftqsnsttv8jfapegrmc7hisnq9t47o3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodiego",
+            "certificate_hash": "cc6eeff172691c22e329279599f0f979b5b3a965"
+          }
+        },
+        {
+          "client_id": "451140062530-b5e6gekitagj9rj5ht4lvuv271q1j33v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwhR_eH_oH6GcPHs6B8ycVlNYvSvYiNCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451140062530-b5e6gekitagj9rj5ht4lvuv271q1j33v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
